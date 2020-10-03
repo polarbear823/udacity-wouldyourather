@@ -24,10 +24,10 @@ class App extends Component {
           {this.props.loginUser ?
               <div>
                 <Route path='/' exact component={QuestionsPage} />
-                <Route path='/question/:id' component={QuestionDetailPage} />
+                <Route path='/questions/:id' component={QuestionDetailPage} />
                 <Route path='/signin' component={LoginPage} />
-                <Route path='/new' component={NewQuestionPage}/>
-                <Route path='/board' component={LeaderBoardPage}/>
+                <Route path='/add' component={NewQuestionPage}/>
+                <Route path='/leaderboard' component={LeaderBoardPage}/>
               </div> :
               <LoginPage/>
           }

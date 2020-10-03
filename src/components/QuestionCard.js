@@ -15,7 +15,7 @@ class QuestionCard extends Component {
     render() {
         const {question, user} = this.props;
         if (this.state.toDetailPage === true) {
-            return <Redirect to={`/question/${question.id}`}/>
+            return <Redirect to={`/questions/${question.id}`}/>
         } 
         return (
             <Card className='question-card'>

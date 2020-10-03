@@ -17,10 +17,10 @@ class Nav extends Component {
                 this.props.history.push('/');
                 break;
             case 1:
-                this.props.history.push('/new');
+                this.props.history.push('/add');
                 break;
             case 2:
-                this.props.history.push('/board');
+                this.props.history.push('/leaderboard');
                 break;       
             default:
                 break;
@@ -40,10 +40,10 @@ class Nav extends Component {
             case '/':
                 tabValue = 0
                 break;
-            case '/new':
+            case '/add':
                 tabValue = 1;
                 break;
-            case '/board':
+            case '/leaderboard':
                 tabValue = 2
                 break;       
             default:
