@@ -11,3 +11,141 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.login-card {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.form-control {
+  margin: 10px auto;
+  width: 100%;
+}
+
+.sign-in-button {
+  width: 100%;
+}
+
+.questions-tabs-box {
+  width: 40%;
+  margin: 10px auto;
+  border: 1px lightgray solid;
+}
+.question-tab {
+  width: 50%;
+  margin: 0 auto;
+  text-transform: none;
+}
+
+.card-avatar {
+  width: 40%;
+}
+
+.question-card-detail {
+  display: flex;
+  flex-direction: row;
+  min-height: 180px
+}
+
+.question-card-header {
+  font-weight: bold;
+  background-color: lightgrey;
+  border-bottom: lightslategray;
+}
+
+.question-card {
+  margin: 10px;
+}
+
+.question-detail-card {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.submit-answer-button {
+  display: block;
+}
+
+.answered-question-card {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px lightgrey solid;
+  width: 100%;
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.progress-bar {
+  width: 70%;
+}
+
+.card-badge {
+  width: 80%
+}
+
+.user-nav-container {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  padding: 10px;
+}
+.nav-tabs {
+  display: inline-block;
+}
+
+.nav-avatar {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.divider {
+  margin: 10px;
+}
+
+.new-question-card {
+  width:60%;
+  text-align: center;
+  margin:10px auto;
+}
+
+.submit-question-button {
+  display: block;
+  margin: 10px auto;
+}
+
+.option-text {
+  width: 80%;
+}
+
+.board-table {
+  width: 60%;
+}
+
+.board-table-div {
+  display: flex;
+}
+
+.score-header {
+  background-color: lightgray;
+  border-bottom: lightslategray 1px solid;
+}
+
+.score-board {
+  margin: 10px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.leader-board-container {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.not-found-div {
+  text-align: center;
+  margin: 10px;
+}
